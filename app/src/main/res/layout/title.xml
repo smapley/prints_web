@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/title_item1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:text="兑奖" />
+
+    <TextView
+        android:id="@+id/title_item2"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="未连接打印机" />
+
+    <TextView
+        android:id="@+id/title_item3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:text="打印" />
+
+</LinearLayout>
